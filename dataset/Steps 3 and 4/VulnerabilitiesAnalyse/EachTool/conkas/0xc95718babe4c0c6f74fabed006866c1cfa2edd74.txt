@@ -1,0 +1,27 @@
+line 37:65 extraneous input 'supplySharesOf' expecting {';', '='}
+line 39:44 extraneous input 'pendingSystemFees' expecting {';', '='}
+line 41:44 extraneous input 'totalSupplyShares' expecting {';', '='}
+line 42:44 extraneous input 'totalSupplyAmount' expecting {';', '='}
+line 43:44 extraneous input 'totalDebtShares' expecting {';', '='}
+line 44:44 extraneous input 'totalDebtAmount' expecting {';', '='}
+line 47:47 extraneous input 'lpToken' expecting {';', '='}
+line 53:26 extraneous input 'tokenA' expecting {';', '='}
+line 54:26 extraneous input 'tokenB' expecting {';', '='}
+Traceback (most recent call last):
+  File "/conkas/conkas.py", line 137, in <module>
+    main()
+  File "/conkas/conkas.py", line 88, in main
+    contracts = compile_files([filename])
+  File "/usr/local/lib/python3.8/dist-packages/solcx/main.py", line 118, in compile_files
+    stdoutdata, stderrdata, command, proc = solc_wrapper(**compiler_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/solcx/utils/string.py", line 78, in inner
+    return force_obj_to_text(fn(*args, **kwargs))
+  File "/usr/local/lib/python3.8/dist-packages/solcx/wrapper.py", line 187, in solc_wrapper
+    raise SolcError(
+solcx.exceptions.SolcError: An error occurred during execution
+> command: `/root/.solcx/solc-v0.8.6 --combined-json abi,asm,ast,bin,bin-runtime,devdoc,opcodes,userdoc ./LendingPair.sol`
+> return code: `1`
+> stderr:
+
+> stdout:
+Compiler error: Stack too deep when compiling inline assembly: Variable headStart is 1 slot(s) too deep inside the stack.

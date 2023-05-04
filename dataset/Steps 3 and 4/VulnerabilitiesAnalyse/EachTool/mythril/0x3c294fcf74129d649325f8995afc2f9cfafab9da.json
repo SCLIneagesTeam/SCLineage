@@ -1,0 +1,233 @@
+{
+    "error": null, 
+    "issues": 
+    [
+        {
+            "address": 644, 
+            "contract": "ERC721Holder", 
+            "description": "An assertion violation was triggered.\nIt is possible to trigger an assertion violation. Note that Solidity assert() statements should only be used to check invariants. Review the transaction trace generated for this issue and either make sure your program logic is correct, or use require() instead of assert() if your goal is to constrain user inputs or enforce preconditions. Remember to validate inputs from both callers (for instance, via passed arguments) and callees (for instance, via return values).", 
+            "filename": "#utility.yul", 
+            "function": "onERC721Received(address,address,uint256,bytes)", 
+            "lineno": 19, 
+            "max_gas_used": 1294, 
+            "min_gas_used": 1106, 
+            "severity": "Medium", 
+            "sourceMap": ":::i", 
+            "swc-id": "110", 
+            "title": "Exception State", 
+            "tx_sequence": 
+            {
+                "initialState": 
+                {
+                    "accounts": 
+                    {
+                        "0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe": 
+                        {
+                            "balance": "0x4000000000006015d", 
+                            "code": "", 
+                            "nonce": 0, 
+                            "storage": "{}"
+                        }, 
+                        "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef": 
+                        {
+                            "balance": "0x0", 
+                            "code": "", 
+                            "nonce": 0, 
+                            "storage": "{}"
+                        }
+                    }
+                }, 
+                "steps": 
+                [
+                    {"address": "", 
+                        "calldata": "", 
+                        "input": "", 
+                        "name": "unknown", 
+                        "origin": "0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe", 
+                        "value": "0x0"
+                    }, 
+                    {
+                        "address": "0x901d12ebe1b195e5aa8748e62bd7734ae19b51f", 
+                        "calldata": "", 
+                        "input": "", 
+                        "name": "onERC721Received(address,address,uint256,bytes)", 
+                        "origin": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", 
+                        "resolved_input": null, 
+                        "value": "0x0"
+                    }
+                ]
+            }
+        }, 
+        {
+            "address": 1130, 
+            "contract": "ERC1155Holder", 
+            "description": "", 
+            "filename": "#utility.yul", 
+            "function": "onERC1155BatchReceived(address,address,uint256[],uint256[],bytes)", 
+            "lineno": 19, 
+            "max_gas_used": 1125, 
+            "min_gas_used": 937, 
+            "severity": "Medium", 
+            "sourceMap": ":::i", 
+            "swc-id": "110", 
+            "title": "Exception State", 
+            "tx_sequence": 
+            {
+                "initialState": 
+                {
+                    "accounts": 
+                    {
+                        "0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe": 
+                        {
+                            "balance": "0x1", 
+                            "code": "", 
+                            "nonce": 0, 
+                            "storage": "{}"
+                        }, 
+                        "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef": 
+                        {
+                            "balance": "0x0", 
+                            "code": "", 
+                            "nonce": 0, 
+                            "storage": "{}"
+                        }
+                    }
+                }, 
+                "steps": 
+                [
+                    {
+                        "address": "", 
+                        "calldata": "", 
+                        "input": "", 
+                        "name": "unknown", 
+                        "origin": "0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe", 
+                        "value": "0x0"
+                    }, 
+                    {
+                        "address": "0x901d12ebe1b195e5aa8748e62bd7734ae19b51f", 
+                        "calldata": "", 
+                        "input": "", 
+                        "origin": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", 
+                        "resolved_input": null, 
+                        "value": "0x0"
+                    }
+                ]
+            }
+        }, 
+        {
+            "address": 1130,
+             "contract": "ERC1155Holder", 
+             "description": ".", 
+             "filename": "#utility.yul", 
+             "function": "onERC1155Received(address,address,uint256,uint256,bytes)", 
+             "lineno": 19, 
+             "max_gas_used": 1264, 
+             "min_gas_used": 1169, 
+             "severity": "Medium", 
+             "sourceMap": ":::i", 
+             "swc-id": "110", 
+             "title": "Exception State", 
+             "tx_sequence": 
+             {
+                 "initialState": 
+                 {
+                     "accounts": 
+                     {
+                         "0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe": 
+                         {
+                             "balance": "0x3", 
+                             "code": "", 
+                             "nonce": 0, 
+                             "storage": "{}"
+                        }, 
+                        "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef": 
+                        {
+                            "balance": "0x2", 
+                            "code": "", 
+                            "nonce": 0, 
+                            "storage": "{}"
+                        }
+                    }
+                }, 
+                "steps": 
+                [
+                    {
+                        "address": "", 
+                        "calldata": "", 
+                        "input": "", 
+                        "name": "unknown", 
+                        "origin": "0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe", 
+                        "value": "0x0"
+                    }, 
+                    {
+                        "address": "0x901d12ebe1b195e5aa8748e62bd7734ae19b51f", 
+                        "calldata": "", 
+                        "input": "", 
+                        "name": "onERC1155Received(address,address,uint256,uint256,bytes)", 
+                        "origin": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef", 
+                        "resolved_input": null, 
+                        "value": "0x0"
+                    }
+                ]
+            }
+        }, 
+        {
+            "address": 1847, 
+            "contract": "OwnedUpgradabilityProxy", 
+            "description": "", 
+            "filename": "#utility.yul", 
+            "function": "upgradeToAndCall(address,bytes)", 
+            "lineno": 19, 
+            "max_gas_used": 929, 
+            "min_gas_used": 741, 
+            "severity": "Medium", 
+            "sourceMap": ":::i", 
+            "swc-id": "110",
+             "title": "Exception State", 
+             "tx_sequence": 
+             {
+                 "initialState": 
+                 {
+                     "accounts": 
+                     {
+                         "0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe": 
+                         {
+                             "balance": "0x20000000", 
+                             "code": "", 
+                             "nonce": 0, 
+                             "storage": "{}"
+                        }, 
+                        "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef": 
+                        {
+                            "balance": "0x0", 
+                            "code": "", 
+                            "nonce": 0, 
+                            "storage": "{}"
+                        }
+                    }
+                }, 
+                "steps": 
+                [
+                    {
+                        "address": "", 
+                        "calldata": "", 
+                        "input": "", 
+                        "name": "unknown", 
+                        "origin": "0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe", 
+                        "value": "0x0"
+                    }, 
+                    {
+                        "address": "0x901d12ebe1b195e5aa8748e62bd7734ae19b51f", 
+                        "calldata": "", 
+                        "input": "", 
+                        "name": "upgradeToAndCall(address,bytes)", 
+                        "origin": "0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe", 
+                        "resolved_input": null, 
+                        "value": "0x0"
+                    }
+                ]
+            }
+        }
+    ], 
+    "success": true
+}

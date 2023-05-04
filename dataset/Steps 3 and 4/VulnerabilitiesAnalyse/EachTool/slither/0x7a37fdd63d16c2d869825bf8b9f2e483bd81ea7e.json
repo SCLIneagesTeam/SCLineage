@@ -1,0 +1,2329 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_storage",
+            "source_mapping": {
+              "start": 232,
+              "length": 16,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 25,
+              "ending_column": 41
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "initialize",
+                "source_mapping": {
+                  "start": 212,
+                  "length": 109,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ControllableInit",
+                    "source_mapping": {
+                      "start": 133,
+                      "length": 743,
+                      "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                      "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                      "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                      "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "initialize(address)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "_storage",
+            "source_mapping": {
+              "start": 1190,
+              "length": 217,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "is_dependency": false,
+              "lines": [
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "GovernableInit",
+                "source_mapping": {
+                  "start": 187,
+                  "length": 1336,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "_storage()"
+            }
+          }
+        ],
+        "description": "ControllableInit.initialize(address)._storage (Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol#9) shadows:\n\t- GovernableInit._storage() (Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#42-48) (function)\n",
+        "markdown": "[ControllableInit.initialize(address)._storage](Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol#L9) shadows:\n\t- [GovernableInit._storage()](Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#L42-L48) (function)\n",
+        "first_markdown_element": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol#L9",
+        "id": "1004a4762a09150e18c6cf01d580b17c50c66c5c52cf432b8ca21bcb42b360e0",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "_storage",
+            "source_mapping": {
+              "start": 1190,
+              "length": 217,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "is_dependency": false,
+              "lines": [
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "GovernableInit",
+                "source_mapping": {
+                  "start": 187,
+                  "length": 1336,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "_storage()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 1350,
+              "length": 51,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "is_dependency": false,
+              "lines": [
+                45,
+                46,
+                47
+              ],
+              "starting_column": 9,
+              "ending_column": 10
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "_storage",
+                "source_mapping": {
+                  "start": 1190,
+                  "length": 217,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "GovernableInit",
+                    "source_mapping": {
+                      "start": 187,
+                      "length": 1336,
+                      "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                      "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                      "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                      "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "_storage()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "GovernableInit._storage() (Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#42-48) uses assembly\n\t- INLINE ASM (Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#45-47)\n",
+        "markdown": "[GovernableInit._storage()](Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#L42-L48) uses assembly\n\t- [INLINE ASM](Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#L45-L47)\n",
+        "first_markdown_element": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#L42-L48",
+        "id": "4094447151e5c4e195c4cb9ed48d46498845b4075e26514b99f52a31daa8d5be",
+        "check": "assembly",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "_setStorage",
+            "source_mapping": {
+              "start": 795,
+              "length": 216,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "is_dependency": false,
+              "lines": [
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "GovernableInit",
+                "source_mapping": {
+                  "start": 187,
+                  "length": 1336,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "_setStorage(address)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 948,
+              "length": 57,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "is_dependency": false,
+              "lines": [
+                32,
+                33,
+                34
+              ],
+              "starting_column": 9,
+              "ending_column": 10
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "_setStorage",
+                "source_mapping": {
+                  "start": 795,
+                  "length": 216,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "GovernableInit",
+                    "source_mapping": {
+                      "start": 187,
+                      "length": 1336,
+                      "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                      "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                      "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                      "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "_setStorage(address)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "GovernableInit._setStorage(address) (Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#29-35) uses assembly\n\t- INLINE ASM (Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#32-34)\n",
+        "markdown": "[GovernableInit._setStorage(address)](Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#L29-L35) uses assembly\n\t- [INLINE ASM](Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#L32-L34)\n",
+        "first_markdown_element": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#L29-L35",
+        "id": "79cc5423811b185152615ca157e8224547ef57f08b454f8cf488759290babd5c",
+        "check": "assembly",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "isConstructor",
+            "source_mapping": {
+              "start": 1409,
+              "length": 498,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_relative": "@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_short": "@openzeppelin/upgrades/contracts/Initializable.sol",
+              "is_dependency": false,
+              "lines": [
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Initializable",
+                "source_mapping": {
+                  "start": 657,
+                  "length": 1357,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+                  "filename_relative": "@openzeppelin/upgrades/contracts/Initializable.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+                  "filename_short": "@openzeppelin/upgrades/contracts/Initializable.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "isConstructor()"
+            }
+          },
+          {
+            "type": "node",
+            "name": "",
+            "source_mapping": {
+              "start": 1847,
+              "length": 36,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_relative": "@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_short": "@openzeppelin/upgrades/contracts/Initializable.sol",
+              "is_dependency": false,
+              "lines": [
+                56
+              ],
+              "starting_column": 5,
+              "ending_column": 41
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "isConstructor",
+                "source_mapping": {
+                  "start": 1409,
+                  "length": 498,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+                  "filename_relative": "@openzeppelin/upgrades/contracts/Initializable.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+                  "filename_short": "@openzeppelin/upgrades/contracts/Initializable.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Initializable",
+                    "source_mapping": {
+                      "start": 657,
+                      "length": 1357,
+                      "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+                      "filename_relative": "@openzeppelin/upgrades/contracts/Initializable.sol",
+                      "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+                      "filename_short": "@openzeppelin/upgrades/contracts/Initializable.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "isConstructor()"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Initializable.isConstructor() (@openzeppelin/upgrades/contracts/Initializable.sol#48-58) uses assembly\n\t- INLINE ASM (@openzeppelin/upgrades/contracts/Initializable.sol#56)\n",
+        "markdown": "[Initializable.isConstructor()](@openzeppelin/upgrades/contracts/Initializable.sol#L48-L58) uses assembly\n\t- [INLINE ASM](@openzeppelin/upgrades/contracts/Initializable.sol#L56)\n",
+        "first_markdown_element": "@openzeppelin/upgrades/contracts/Initializable.sol#L48-L58",
+        "id": "a3996851fb7ca527a784ec2a0a0c1dd57b62391c844cf26f2045d672c4f600f3",
+        "check": "assembly",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": "0.5.16",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "0.5",
+                ".16"
+              ]
+            }
+          },
+          {
+            "type": "pragma",
+            "name": "0.5.16",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "0.5",
+                ".16"
+              ]
+            }
+          },
+          {
+            "type": "pragma",
+            "name": "0.5.16",
+            "source_mapping": {
+              "start": 0,
+              "length": 23,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 24
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                "0.5",
+                ".16"
+              ]
+            }
+          },
+          {
+            "type": "pragma",
+            "name": ">=0.4.24<0.7.0",
+            "source_mapping": {
+              "start": 0,
+              "length": 32,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_relative": "@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_short": "@openzeppelin/upgrades/contracts/Initializable.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 33
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                ">=",
+                "0.4",
+                ".24",
+                "<",
+                "0.7",
+                ".0"
+              ]
+            }
+          }
+        ],
+        "description": "Different versions of Solidity are used:\n\t- Version used: ['0.5.16', '>=0.4.24<0.7.0']\n\t- 0.5.16 (Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol#1)\n\t- 0.5.16 (Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#1)\n\t- 0.5.16 (Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#1)\n\t- >=0.4.24<0.7.0 (@openzeppelin/upgrades/contracts/Initializable.sol#1)\n",
+        "markdown": "Different versions of Solidity are used:\n\t- Version used: ['0.5.16', '>=0.4.24<0.7.0']\n\t- [0.5.16](Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol#L1)\n\t- [0.5.16](Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#L1)\n\t- [0.5.16](Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#L1)\n\t- [>=0.4.24<0.7.0](@openzeppelin/upgrades/contracts/Initializable.sol#L1)\n",
+        "first_markdown_element": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol#L1",
+        "id": "9998e193d4680e41649f349fcebb7c7a441539ac76f4f8138229c664d090b8ec",
+        "check": "pragma",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "pragma",
+            "name": ">=0.4.24<0.7.0",
+            "source_mapping": {
+              "start": 0,
+              "length": 32,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_relative": "@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_short": "@openzeppelin/upgrades/contracts/Initializable.sol",
+              "is_dependency": false,
+              "lines": [
+                1
+              ],
+              "starting_column": 1,
+              "ending_column": 33
+            },
+            "type_specific_fields": {
+              "directive": [
+                "solidity",
+                ">=",
+                "0.4",
+                ".24",
+                "<",
+                "0.7",
+                ".0"
+              ]
+            }
+          }
+        ],
+        "description": "Pragma version>=0.4.24<0.7.0 (@openzeppelin/upgrades/contracts/Initializable.sol#1) allows old versions\n",
+        "markdown": "Pragma version[>=0.4.24<0.7.0](@openzeppelin/upgrades/contracts/Initializable.sol#L1) allows old versions\n",
+        "first_markdown_element": "@openzeppelin/upgrades/contracts/Initializable.sol#L1",
+        "id": "0fb7da80144b6d099255401fcb3269739a5ac418174b5a72d56d2a2915de9d6c",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_storage",
+            "source_mapping": {
+              "start": 232,
+              "length": 16,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "is_dependency": false,
+              "lines": [
+                9
+              ],
+              "starting_column": 25,
+              "ending_column": 41
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "initialize",
+                "source_mapping": {
+                  "start": 212,
+                  "length": 109,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    9,
+                    10,
+                    11
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ControllableInit",
+                    "source_mapping": {
+                      "start": 133,
+                      "length": 743,
+                      "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                      "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                      "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                      "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "initialize(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter ControllableInit.initialize(address)._storage (Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol#9) is not in mixedCase\n",
+        "markdown": "Parameter [ControllableInit.initialize(address)._storage](Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol#L9) is not in mixedCase\n",
+        "first_markdown_element": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol#L9",
+        "id": "8199387af2964f66adb5c3a60903a3b878c6ac9599ea70cdea49e9215a3c1251",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_governance",
+            "source_mapping": {
+              "start": 312,
+              "length": 19,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "is_dependency": false,
+              "lines": [
+                16
+              ],
+              "starting_column": 28,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "setGovernance",
+                "source_mapping": {
+                  "start": 289,
+                  "length": 188,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    16,
+                    17,
+                    18,
+                    19
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Storage",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 882,
+                      "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                      "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                      "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                      "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "setGovernance(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Storage.setGovernance(address)._governance (Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#16) is not in mixedCase\n",
+        "markdown": "Parameter [Storage.setGovernance(address)._governance](Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#L16) is not in mixedCase\n",
+        "first_markdown_element": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#L16",
+        "id": "826d9eee61266c518371d20b941fd1e296b3ba76bf4f90af3adece8ead5245bf",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_store",
+            "source_mapping": {
+              "start": 1037,
+              "length": 14,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "is_dependency": false,
+              "lines": [
+                37
+              ],
+              "starting_column": 25,
+              "ending_column": 39
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "setStorage",
+                "source_mapping": {
+                  "start": 1017,
+                  "length": 167,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    37,
+                    38,
+                    39,
+                    40
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "GovernableInit",
+                    "source_mapping": {
+                      "start": 187,
+                      "length": 1336,
+                      "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                      "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                      "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                      "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "setStorage(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter GovernableInit.setStorage(address)._store (Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#37) is not in mixedCase\n",
+        "markdown": "Parameter [GovernableInit.setStorage(address)._store](Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#L37) is not in mixedCase\n",
+        "first_markdown_element": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#L37",
+        "id": "8862cb45a086451752491e08828af41e9543e456debfecfa9014c68b4757f3b8",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_controller",
+            "source_mapping": {
+              "start": 506,
+              "length": 19,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "is_dependency": false,
+              "lines": [
+                21
+              ],
+              "starting_column": 28,
+              "ending_column": 47
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "setController",
+                "source_mapping": {
+                  "start": 483,
+                  "length": 188,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    21,
+                    22,
+                    23,
+                    24
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Storage",
+                    "source_mapping": {
+                      "start": 25,
+                      "length": 882,
+                      "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                      "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                      "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                      "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "setController(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter Storage.setController(address)._controller (Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#21) is not in mixedCase\n",
+        "markdown": "Parameter [Storage.setController(address)._controller](Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#L21) is not in mixedCase\n",
+        "first_markdown_element": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#L21",
+        "id": "8d18dabaa43bde5c923cbdc53b6e55a62023aa89439d6722a32302bad3e355f4",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "______gap",
+            "source_mapping": {
+              "start": 1982,
+              "length": 29,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_relative": "@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_short": "@openzeppelin/upgrades/contracts/Initializable.sol",
+              "is_dependency": false,
+              "lines": [
+                61
+              ],
+              "starting_column": 3,
+              "ending_column": 32
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Initializable",
+                "source_mapping": {
+                  "start": 657,
+                  "length": 1357,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+                  "filename_relative": "@openzeppelin/upgrades/contracts/Initializable.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+                  "filename_short": "@openzeppelin/upgrades/contracts/Initializable.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "variable",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Variable Initializable.______gap (@openzeppelin/upgrades/contracts/Initializable.sol#61) is not in mixedCase\n",
+        "markdown": "Variable [Initializable.______gap](@openzeppelin/upgrades/contracts/Initializable.sol#L61) is not in mixedCase\n",
+        "first_markdown_element": "@openzeppelin/upgrades/contracts/Initializable.sol#L61",
+        "id": "b471394b1d13cff35631637c3ce2058349db2ceaa28af047c2240ce5c5d38387",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_store",
+            "source_mapping": {
+              "start": 718,
+              "length": 14,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "is_dependency": false,
+              "lines": [
+                25
+              ],
+              "starting_column": 25,
+              "ending_column": 39
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "initialize",
+                "source_mapping": {
+                  "start": 698,
+                  "length": 91,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    25,
+                    26,
+                    27
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "GovernableInit",
+                    "source_mapping": {
+                      "start": 187,
+                      "length": 1336,
+                      "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                      "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                      "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                      "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "initialize(address)"
+                }
+              }
+            },
+            "additional_fields": {
+              "target": "parameter",
+              "convention": "mixedCase"
+            }
+          }
+        ],
+        "description": "Parameter GovernableInit.initialize(address)._store (Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#25) is not in mixedCase\n",
+        "markdown": "Parameter [GovernableInit.initialize(address)._store](Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#L25) is not in mixedCase\n",
+        "first_markdown_element": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#L25",
+        "id": "d98c58ac262f5e287c8833939aa618c3f6b9fb2918ff57e8398d44101f195cda",
+        "check": "naming-convention",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "______gap",
+            "source_mapping": {
+              "start": 1982,
+              "length": 29,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_relative": "@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+              "filename_short": "@openzeppelin/upgrades/contracts/Initializable.sol",
+              "is_dependency": false,
+              "lines": [
+                61
+              ],
+              "starting_column": 3,
+              "ending_column": 32
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Initializable",
+                "source_mapping": {
+                  "start": 657,
+                  "length": 1357,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+                  "filename_relative": "@openzeppelin/upgrades/contracts/Initializable.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/@openzeppelin/upgrades/contracts/Initializable.sol",
+                  "filename_short": "@openzeppelin/upgrades/contracts/Initializable.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          },
+          {
+            "type": "contract",
+            "name": "ControllableInit",
+            "source_mapping": {
+              "start": 133,
+              "length": 743,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "is_dependency": false,
+              "lines": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33
+              ],
+              "starting_column": 1,
+              "ending_column": 2
+            }
+          }
+        ],
+        "description": "Initializable.______gap (@openzeppelin/upgrades/contracts/Initializable.sol#61) is never used in ControllableInit (Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol#6-33)\n",
+        "markdown": "[Initializable.______gap](@openzeppelin/upgrades/contracts/Initializable.sol#L61) is never used in [ControllableInit](Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol#L6-L33)\n",
+        "first_markdown_element": "@openzeppelin/upgrades/contracts/Initializable.sol#L61",
+        "id": "dbaefc358e9b2337d5884167010db7253b6fb50c3b4964ae7bdbfb98391dbe90",
+        "check": "unused-state",
+        "impact": "Informational",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "controller",
+            "source_mapping": {
+              "start": 766,
+              "length": 108,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+              "is_dependency": false,
+              "lines": [
+                30,
+                31,
+                32
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ControllableInit",
+                "source_mapping": {
+                  "start": 133,
+                  "length": 743,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "controller()"
+            }
+          }
+        ],
+        "description": "controller() should be declared external:\n\t- ControllableInit.controller() (Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol#30-32)\n",
+        "markdown": "controller() should be declared external:\n\t- [ControllableInit.controller()](Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol#L30-L32)\n",
+        "first_markdown_element": "Volumes/Work/Defi/delta/delta-contracts/contracts/ControllableInit.sol#L30-L32",
+        "id": "069708ecb78c1291609d92f94c37a46f3fbf1d1276cdeb4db74a32d8687f39f1",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "isController",
+            "source_mapping": {
+              "start": 794,
+              "length": 111,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "is_dependency": false,
+              "lines": [
+                30,
+                31,
+                32
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Storage",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 882,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "isController(address)"
+            }
+          }
+        ],
+        "description": "isController(address) should be declared external:\n\t- Storage.isController(address) (Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#30-32)\n",
+        "markdown": "isController(address) should be declared external:\n\t- [Storage.isController(address)](Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#L30-L32)\n",
+        "first_markdown_element": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#L30-L32",
+        "id": "1c33ff1802412d0986586ceede37ef0a5aebcbb6c0904f764cd4d5913b85575a",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "setStorage",
+            "source_mapping": {
+              "start": 1017,
+              "length": 167,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "is_dependency": false,
+              "lines": [
+                37,
+                38,
+                39,
+                40
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "GovernableInit",
+                "source_mapping": {
+                  "start": 187,
+                  "length": 1336,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "setStorage(address)"
+            }
+          }
+        ],
+        "description": "setStorage(address) should be declared external:\n\t- GovernableInit.setStorage(address) (Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#37-40)\n",
+        "markdown": "setStorage(address) should be declared external:\n\t- [GovernableInit.setStorage(address)](Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#L37-L40)\n",
+        "first_markdown_element": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#L37-L40",
+        "id": "4471fadf6af678bdc3bdac2397e469459b4ad241ff6de3cb3e057fa8c63fde65",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "setController",
+            "source_mapping": {
+              "start": 483,
+              "length": 188,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "is_dependency": false,
+              "lines": [
+                21,
+                22,
+                23,
+                24
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Storage",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 882,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "setController(address)"
+            }
+          }
+        ],
+        "description": "setController(address) should be declared external:\n\t- Storage.setController(address) (Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#21-24)\n",
+        "markdown": "setController(address) should be declared external:\n\t- [Storage.setController(address)](Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#L21-L24)\n",
+        "first_markdown_element": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#L21-L24",
+        "id": "84d6a73491fb01f73ecf71d5532e867c86594d20df25e96ed53f02bd3980fe8f",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "governance",
+            "source_mapping": {
+              "start": 1413,
+              "length": 108,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+              "is_dependency": false,
+              "lines": [
+                50,
+                51,
+                52
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "GovernableInit",
+                "source_mapping": {
+                  "start": 187,
+                  "length": 1336,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "governance()"
+            }
+          }
+        ],
+        "description": "governance() should be declared external:\n\t- GovernableInit.governance() (Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#50-52)\n",
+        "markdown": "governance() should be declared external:\n\t- [GovernableInit.governance()](Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#L50-L52)\n",
+        "first_markdown_element": "Volumes/Work/Defi/delta/delta-contracts/contracts/GovernableInit.sol#L50-L52",
+        "id": "a68bb8cc45b1eedfa7e7faf36a4cebfa4188a517e84c29b5d967dd0479779267",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "setGovernance",
+            "source_mapping": {
+              "start": 289,
+              "length": 188,
+              "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+              "is_dependency": false,
+              "lines": [
+                16,
+                17,
+                18,
+                19
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Storage",
+                "source_mapping": {
+                  "start": 25,
+                  "length": 882,
+                  "filename_used": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "filename_relative": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "filename_absolute": "/contracts/0x7a37fdd63d16c2d869825bf8b9f2e483bd81ea7e-VaultETH/Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "filename_short": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "setGovernance(address)"
+            }
+          }
+        ],
+        "description": "setGovernance(address) should be declared external:\n\t- Storage.setGovernance(address) (Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#16-19)\n",
+        "markdown": "setGovernance(address) should be declared external:\n\t- [Storage.setGovernance(address)](Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#L16-L19)\n",
+        "first_markdown_element": "Volumes/Work/Defi/delta/delta-contracts/contracts/Storage.sol#L16-L19",
+        "id": "c27b360e45b81c78b903d6963a8dbfbf9510ca898cd2b14e28c7b44852e7af7f",
+        "check": "external-function",
+        "impact": "Optimization",
+        "confidence": "High"
+      }
+    ]
+  }
+}

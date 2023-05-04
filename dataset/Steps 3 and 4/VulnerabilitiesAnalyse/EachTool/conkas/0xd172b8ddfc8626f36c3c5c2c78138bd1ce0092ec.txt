@@ -1,0 +1,52 @@
+Traceback (most recent call last):
+  File "/conkas/conkas.py", line 137, in <module>
+    main()
+  File "/conkas/conkas.py", line 88, in main
+    contracts = compile_files([filename])
+  File "/usr/local/lib/python3.8/dist-packages/solcx/main.py", line 118, in compile_files
+    stdoutdata, stderrdata, command, proc = solc_wrapper(**compiler_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/solcx/utils/string.py", line 78, in inner
+    return force_obj_to_text(fn(*args, **kwargs))
+  File "/usr/local/lib/python3.8/dist-packages/solcx/wrapper.py", line 187, in solc_wrapper
+    raise SolcError(
+solcx.exceptions.SolcError: An error occurred during execution
+        > command: `/root/.solcx/solc-v0.7.6 --combined-json abi,asm,ast,bin,bin-runtime,devdoc,opcodes,userdoc ./contracts/StrayCat.sol`
+        > return code: `1`
+        > stderr:
+
+        > stdout:
+        Error: Source "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol" not found: File outside of allowed directories.
+ --> ./contracts/StrayCat.sol:4:1:
+  |
+4 | import "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol" not found: File outside of allowed directories.
+ --> ./contracts/StrayCat.sol:5:1:
+  |
+5 | import "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol" not found: File outside of allowed directories.
+ --> ./contracts/StrayCat.sol:6:1:
+  |
+6 | import "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721PausableUpgradeable.sol" not found: File outside of allowed directories.
+ --> ./contracts/StrayCat.sol:7:1:
+  |
+7 | import "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721PausableUpgradeable.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol" not found: File outside of allowed directories.
+ --> ./contracts/StrayCat.sol:8:1:
+  |
+8 | import "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts-upgradeable/token/ERC721/IERC721EnumerableUpgradeable.sol" not found: File outside of allowed directories.
+ --> ./contracts/IStrayCat.sol:4:1:
+  |
+4 | import "@openzeppelin/contracts-upgradeable/token/ERC721/IERC721EnumerableUpgradeable.sol";
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

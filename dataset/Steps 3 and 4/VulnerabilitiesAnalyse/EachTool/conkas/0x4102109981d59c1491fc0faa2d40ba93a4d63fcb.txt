@@ -1,0 +1,25 @@
+^Z^Z^Z^Z^ZAnalysing ./Implementation.sol:Account...
+Analysing ./Implementation.sol:Address...
+Analysing ./Implementation.sol:Babylonian...
+Analysing ./Implementation.sol:Bonding...
+j
+
+^CTraceback (most recent call last):
+  File "/conkas/conkas.py", line 137, in <module>
+    main()
+  File "/conkas/conkas.py", line 105, in main
+    ssa = Recover(bytecode, edges=[], optimize=True)
+  File "/conkas/rattle/recover.py", line 768, in __init__
+    self.internal = InternalRecover(filedata, edges, optimize, split_functions)
+  File "/conkas/rattle/recover.py", line 32, in __init__
+    self.recover(dispatch)
+  File "/conkas/rattle/recover.py", line 107, in recover
+    self.recover_loop(function)
+  File "/conkas/rattle/recover.py", line 114, in recover_loop
+    self.repopulate_blocks(function)
+  File "/conkas/rattle/recover.py", line 212, in repopulate_blocks
+    for insn in [insn for pc, insn in self.insns.items() if start <= pc < end]:
+  File "/conkas/rattle/recover.py", line 212, in <listcomp>
+    for insn in [insn for pc, insn in self.insns.items() if start <= pc < end]:
+KeyboardInterrupt
+^Z^Z

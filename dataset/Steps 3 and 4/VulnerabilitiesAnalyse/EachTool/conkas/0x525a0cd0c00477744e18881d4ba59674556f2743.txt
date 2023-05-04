@@ -1,0 +1,3734 @@
+Analysing ./Implementation.sol:Account...
+Analysing ./Implementation.sol:Address...
+Analysing ./Implementation.sol:Babylonian...
+Analysing ./Implementation.sol:Bonding...
+maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/conkas/conkas.py", line 105, in main
+    ssa = Recover(bytecode, edges=[], optimize=True)
+  File "/conkas/rattle/recover.py", line 768, in __init__
+    self.internal = InternalRecover(filedata, edges, optimize, split_functions)
+  File "/conkas/rattle/recover.py", line 32, in __init__
+    self.recover(dispatch)
+  File "/conkas/rattle/recover.py", line 107, in recover
+    self.recover_loop(function)
+  File "/conkas/rattle/recover.py", line 159, in recover_loop
+    self.resolve_phis(function)
+  File "/conkas/rattle/recover.py", line 259, in resolve_phis
+    insn.resolve_arguments()
+  File "/conkas/rattle/ssa.py", line 332, in resolve_arguments
+    a, update = arg.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 3 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 3 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 3 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 3 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 3 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 11 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 190, in resolve
+    if self.block.function.phis.get(self, False):
+  File "/conkas/rattle/ssa.py", line 140, in __hash__
+    return hash((self.sp, self.block))
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Analysing ./Implementation.sol:Candidate...
+Analysing ./Implementation.sol:Collateral...
+maximum recursion depth exceeded while calling a Python object
+Traceback (most recent call last):
+  File "/conkas/conkas.py", line 105, in main
+    ssa = Recover(bytecode, edges=[], optimize=True)
+  File "/conkas/rattle/recover.py", line 768, in __init__
+    self.internal = InternalRecover(filedata, edges, optimize, split_functions)
+  File "/conkas/rattle/recover.py", line 32, in __init__
+    self.recover(dispatch)
+  File "/conkas/rattle/recover.py", line 107, in recover
+    self.recover_loop(function)
+  File "/conkas/rattle/recover.py", line 159, in recover_loop
+    self.resolve_phis(function)
+  File "/conkas/rattle/recover.py", line 259, in resolve_phis
+    insn.resolve_arguments()
+  File "/conkas/rattle/ssa.py", line 332, in resolve_arguments
+    a, update = arg.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 5 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 5 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 5 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 5 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 5 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 5 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 5 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 5 more times]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 3 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 1 more time]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 2 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  [Previous line repeated 3 more times]
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 199, in resolve
+    new_slot, _ = new_slot.resolve()  # Resolve it as far as you can
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 172, in resolve
+    rv = new_slot.resolve()
+  File "/conkas/rattle/ssa.py", line 152, in resolve
+    if len(self.block.in_edges) == 0:
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Analysing ./Implementation.sol:Comptroller...
+^[[B^[[B^[[B^[[B^CTraceback (most recent call last):
+  File "/conkas/conkas.py", line 137, in <module>
+    main()
+  File "/conkas/conkas.py", line 105, in main
+    ssa = Recover(bytecode, edges=[], optimize=True)
+  File "/conkas/rattle/recover.py", line 768, in __init__
+    self.internal = InternalRecover(filedata, edges, optimize, split_functions)
+  File "/conkas/rattle/recover.py", line 37, in __init__
+    self.guarenteed_optimizations()
+  File "/conkas/rattle/recover.py", line 714, in guarenteed_optimizations
+    self.update_jump_offsets(prev_block.insns[-1], block.offset, next_block.offset)
+  File "/conkas/rattle/recover.py", line 665, in update_jump_offsets
+    self.update_jump_offset_of_phi_instruction(phi_instruction, old_value, new_value)
+  File "/conkas/rattle/recover.py", line 653, in update_jump_offset_of_phi_instruction
+    self.update_jump_offset_of_phi_instruction(phi, old_value, new_value)
+  File "/conkas/rattle/recover.py", line 653, in update_jump_offset_of_phi_instruction
+    self.update_jump_offset_of_phi_instruction(phi, old_value, new_value)
+  File "/conkas/rattle/recover.py", line 653, in update_jump_offset_of_phi_instruction
+    self.update_jump_offset_of_phi_instruction(phi, old_value, new_value)
+  [Previous line repeated 30 more times]
+  File "/conkas/rattle/recover.py", line 645, in update_jump_offset_of_phi_instruction
+    if arg.writer.insn.is_push and arg.writer.arguments[0].concrete_value == old_value:
+  File "/conkas/rattle/evmasm.py", line 99, in is_push
+    @property
+KeyboardInterrupt
