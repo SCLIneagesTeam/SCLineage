@@ -1,0 +1,35 @@
+line 50:28 extraneous input 'totalSupply' expecting {';', '='}
+Traceback (most recent call last):
+  File "/conkas/conkas.py", line 137, in <module>
+    main()
+  File "/conkas/conkas.py", line 88, in main
+    contracts = compile_files([filename])
+  File "/usr/local/lib/python3.8/dist-packages/solcx/main.py", line 118, in compile_files
+    stdoutdata, stderrdata, command, proc = solc_wrapper(**compiler_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/solcx/utils/string.py", line 78, in inner
+    return force_obj_to_text(fn(*args, **kwargs))
+  File "/usr/local/lib/python3.8/dist-packages/solcx/wrapper.py", line 187, in solc_wrapper
+    raise SolcError(
+solcx.exceptions.SolcError: An error occurred during execution
+        > command: `/root/.solcx/solc-v0.6.12 --combined-json abi,asm,ast,bin,bin-runtime,devdoc,opcodes,userdoc ./contracts/LendFlareVotingEscrow.sol`
+        > return code: `1`
+        > stderr:
+
+        > stdout:
+        Error: Source "@openzeppelin/contracts/token/ERC20/SafeERC20.sol" not found: File outside of allowed directories.
+  --> ./contracts/LendFlareVotingEscrow.sol:15:1:
+   |
+15 | import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts/utils/ReentrancyGuard.sol" not found: File outside of allowed directories.
+  --> ./contracts/LendFlareVotingEscrow.sol:16:1:
+   |
+16 | import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source "@openzeppelin/contracts/proxy/Initializable.sol" not found: File outside of allowed directories.
+  --> ./contracts/LendFlareVotingEscrow.sol:17:1:
+   |
+17 | import "@openzeppelin/contracts/proxy/Initializable.sol";
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

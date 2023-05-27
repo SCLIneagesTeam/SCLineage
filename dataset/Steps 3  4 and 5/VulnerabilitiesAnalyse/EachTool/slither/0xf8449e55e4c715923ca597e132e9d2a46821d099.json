@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [],
+        "description": "solc-0.6.6 is not recommended for deployment\n",
+        "markdown": "solc-0.6.6 is not recommended for deployment\n",
+        "first_markdown_element": "",
+        "id": "1a984db96bb36f223a040443ddf19bcc54f86f916d070950880e1b7d9781914c",
+        "check": "solc-version",
+        "impact": "Informational",
+        "confidence": "High"
+      }
+    ]
+  }
+}

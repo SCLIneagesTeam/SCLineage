@@ -1,0 +1,9 @@
+line 1:0 mismatched input '{' expecting {<EOF>, 'pragma', 'import', 'contract', 'interface', 'library'}
+Traceback (most recent call last):
+  File "/conkas/conkas.py", line 137, in <module>
+    main()
+  File "/conkas/conkas.py", line 79, in main
+    solc_version = get_solc_version_string(file)
+  File "/conkas/conkas.py", line 23, in get_solc_version_string
+    if children['type'] == 'PragmaDirective':
+TypeError: 'NoneType' object is not subscriptable

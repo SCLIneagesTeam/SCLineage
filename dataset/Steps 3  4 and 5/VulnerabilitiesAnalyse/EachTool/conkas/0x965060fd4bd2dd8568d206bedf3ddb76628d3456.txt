@@ -1,0 +1,56 @@
+Traceback (most recent call last):
+  File "/conkas/conkas.py", line 137, in <module>
+    main()
+  File "/conkas/conkas.py", line 88, in main
+    contracts = compile_files([filename])
+  File "/usr/local/lib/python3.8/dist-packages/solcx/main.py", line 118, in compile_files
+    stdoutdata, stderrdata, command, proc = solc_wrapper(**compiler_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/solcx/utils/string.py", line 78, in inner
+    return force_obj_to_text(fn(*args, **kwargs))
+  File "/usr/local/lib/python3.8/dist-packages/solcx/wrapper.py", line 187, in solc_wrapper
+    raise SolcError(
+solcx.exceptions.SolcError: An error occurred during execution
+        > command: `/root/.solcx/solc-v0.5.16 --combined-json abi,asm,ast,bin,bin-runtime,devdoc,opcodes,userdoc ./contracts/strategies/convex/ConvexStrategyOBTCMainnet.sol`
+        > return code: `1`
+        > stderr:
+
+        > stdout:
+        ./contracts/strategies/convex/base/ConvexStrategyUL.sol:3:1: Error: Source "@openzeppelin/contracts/math/Math.sol" not found: File outside of allowed directories.
+import "@openzeppelin/contracts/math/Math.sol";
+^---------------------------------------------^
+./contracts/strategies/convex/base/ConvexStrategyUL.sol:4:1: Error: Source "@openzeppelin/contracts/math/SafeMath.sol" not found: File outside of allowed directories.
+import "@openzeppelin/contracts/math/SafeMath.sol";
+^-------------------------------------------------^
+./contracts/strategies/convex/base/ConvexStrategyUL.sol:5:1: Error: Source "@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol" not found: File outside of allowed directories.
+import "@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol";
+^-------------------------------------------------------------^
+./contracts/strategies/convex/base/ConvexStrategyUL.sol:6:1: Error: Source "@openzeppelin/contracts/token/ERC20/SafeERC20.sol" not found: File outside of allowed directories.
+import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
+^---------------------------------------------------------^
+./contracts/strategies/convex/base/ConvexStrategyUL.sol:7:1: Error: Source "./contracts/base/interface/uniswap/IUniswapV2Router02.sol" not found: File outside of allowed directories.
+import "../../../base/interface/uniswap/IUniswapV2Router02.sol";
+^--------------------------------------------------------------^
+./contracts/strategies/convex/base/ConvexStrategyUL.sol:8:1: Error: Source "./contracts/base/interface/IStrategy.sol" not found: File outside of allowed directories.
+import "../../../base/interface/IStrategy.sol";
+^---------------------------------------------^
+./contracts/strategies/convex/base/ConvexStrategyUL.sol:9:1: Error: Source "./contracts/base/interface/IVault.sol" not found: File outside of allowed directories.
+import "../../../base/interface/IVault.sol";
+^------------------------------------------^
+./contracts/strategies/convex/base/ConvexStrategyUL.sol:10:1: Error: Source "./contracts/base/upgradability/BaseUpgradeableStrategyUL.sol" not found: File outside of allowed directories.
+import "../../../base/upgradability/BaseUpgradeableStrategyUL.sol";
+^-----------------------------------------------------------------^
+./contracts/strategies/convex/base/ConvexStrategyUL.sol:11:1: Error: Source "./contracts/base/interface/uniswap/IUniswapV2Pair.sol" not found: File outside of allowed directories.
+import "../../../base/interface/uniswap/IUniswapV2Pair.sol";
+^----------------------------------------------------------^
+./contracts/strategies/convex/base/ConvexStrategyUL.sol:14:1: Error: Source "./contracts/base/interface/curve/ICurveDeposit_2token.sol" not found: File outside of allowed directories.
+import "../../../base/interface/curve/ICurveDeposit_2token.sol";
+^--------------------------------------------------------------^
+./contracts/strategies/convex/base/ConvexStrategyUL.sol:15:1: Error: Source "./contracts/base/interface/curve/ICurveDeposit_3token.sol" not found: File outside of allowed directories.
+import "../../../base/interface/curve/ICurveDeposit_3token.sol";
+^--------------------------------------------------------------^
+./contracts/strategies/convex/base/ConvexStrategyUL.sol:16:1: Error: Source "./contracts/base/interface/curve/ICurveDeposit_4token.sol" not found: File outside of allowed directories.
+import "../../../base/interface/curve/ICurveDeposit_4token.sol";
+^--------------------------------------------------------------^
+./contracts/strategies/convex/base/ConvexStrategyUL.sol:17:1: Error: Source "./contracts/base/interface/curve/ICurveDeposit_4token_meta.sol" not found: File outside of allowed directories.
+import "../../../base/interface/curve/ICurveDeposit_4token_meta.sol";
+^-------------------------------------------------------------------^

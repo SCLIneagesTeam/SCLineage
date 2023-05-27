@@ -1,0 +1,69 @@
+Analysing ./LidSimplifiedPresale.sol:BasisPoints...
+Analysing ./LidSimplifiedPresale.sol:Context...
+Nothing to analyse
+Analysing ./LidSimplifiedPresale.sol:IERC20...
+Nothing to analyse
+Analysing ./LidSimplifiedPresale.sol:ILidCertifiableToken...
+Nothing to analyse
+Analysing ./LidSimplifiedPresale.sol:IStakeHandler...
+Nothing to analyse
+Analysing ./LidSimplifiedPresale.sol:IUniswapV2Router01...
+Nothing to analyse
+Analysing ./LidSimplifiedPresale.sol:Initializable...
+Analysing ./LidSimplifiedPresale.sol:LidSimplifiedPresale...
+Vulnerability: Integer Overflow. Maybe in function: 0xe668d6d8. PC: 0x3a92. Line number: 1221.
+If a = 91338261969839830423929228665509523722175104513074912698963065116483434702395
+and b = 24453827267476364999641756343178384131094880152618882750292553338917326035392
+Vulnerability: Time Manipulation. Maybe in function: deposit(). PC: 0x2a1a. Line number: 1442.
+Vulnerability: Integer Overflow. Maybe in function: 0xc0f916. PC: 0xe57. Line number: 1220.
+If a = 114157174466269788254070916921964605470815142572687165195628328561717180527473
+and b = 1634914771046407169500068086723302382454842092953398843829255446195949112463
+Vulnerability: Time Manipulation. Maybe in function: deposit(). PC: 0x8de. Line number: 1437.
+Analysing ./LidSimplifiedPresale.sol:LidSimplifiedPresaleAccess...
+Analysing ./LidSimplifiedPresale.sol:LidSimplifiedPresaleRedeemer...
+Vulnerability: Integer Overflow. Maybe in function: 0x8b03a185. PC: 0xa01. Line number: 779.
+If a = 57762096780731528330405058414938765910932439953606620384872163540286326260488
+and b = 58029992456584667093165926593749141942337544712035145400932237052631756832768
+Vulnerability: Time Manipulation. Maybe in function: 0xc6db01ad. PC: 0x1362. Line number: 882.
+Vulnerability: Integer Overflow. Maybe in function: 0xd578d873. PC: 0x1735. Line number: 778.
+If a = 73312145035153491510562152807817059592623112619519005820720798265374763743059
+and b = 44271471908507216330117115707239051654536810538767944378769040490563367206912
+Analysing ./LidSimplifiedPresale.sol:LidSimplifiedPresaleTimer...
+Vulnerability: Time Manipulation. Maybe in function: isStarted(). PC: 0x185. Line number: 764.
+Analysing ./LidSimplifiedPresale.sol:LidStaking...
+^CException ignored in: <function ConcreteStackValue.__del__ at 0x7fae0f30c550>
+Traceback (most recent call last):
+  File "/conkas/rattle/ssa.py", line 103, in __del__
+    self._concrete_values.remove(self)
+  File "/conkas/rattle/ssa.py", line 108, in __eq__
+    def __eq__(self, other: object) -> bool:
+KeyboardInterrupt: 
+^[[A^[[A^[[A^[[A^[[A^[[A^[[A
+
+
+
+Vulnerability: Reentrancy. Maybe in function: 0xf24ee7d3. PC: 0x3064. Line number: 1014.
+Vulnerability: Integer Overflow. Maybe in function: isOwner(). PC: 0x1f98. Line number: 1102.
+If a = 64870038436241285212978281562700120069103092548980574693400848590315513100171
+and b = 50922050801074910210592703445987787784166892116659989346056735417597616539765
+Vulnerability: Integer Underflow. Maybe in function: isOwner(). PC: 0x1f8e. Line number: 1102.
+If a = 115792089237316195423570985008687907853269984665640564039457584007913129639935
+and b = 1
+Vulnerability: Time Manipulation. Maybe in function: reinvest(uint256). PC: 0x1b30. Line number: 976.
+Vulnerability: Integer Overflow. Maybe in function: 0x4bd5fd5d. PC: 0x176a. Line number: 956.
+If a = 64870038436241285212978281562700120069103092548980574693400848590315513100171
+and b = 94081072505319723089005214384651404735740783506139515556507948447520281067632
+Vulnerability: Integer Underflow. Maybe in function: isOwner(). PC: 0x1822. Line number: 1106.
+If a = 0
+and b = 1
+Analysing ./LidSimplifiedPresale.sol:Ownable...
+
+
+Analysing ./LidSimplifiedPresale.sol:Pausable...
+
+
+
+Analysing ./LidSimplifiedPresale.sol:PauserRole...
+Analysing ./LidSimplifiedPresale.sol:ReentrancyGuard...
+Analysing ./LidSimplifiedPresale.sol:Roles...
+Analysing ./LidSimplifiedPresale.sol:SafeMath...
